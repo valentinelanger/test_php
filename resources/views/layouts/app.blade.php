@@ -15,12 +15,7 @@
 
       <h1>this is the layout</h1>
 
-      @section('sidebar')
-        This is the master sidebar
-      @show
+      @yield('content')
 
-      <div class="container">
-        @yield('content')
-      </div>
     </body>
 </html>
