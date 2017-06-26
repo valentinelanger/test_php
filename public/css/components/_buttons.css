@@ -11,6 +11,23 @@
 .button:hover {
   background-color: #0B71BF;
   opacity: 1;
+  color: white;
+  text-decoration: none;
+}
+
+.button:focus {
+  background-color: #0B71BF;
+  opacity: 1;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+
+.button:active {
+  background-color: #0B71BF;
+  opacity: 1;
+  color: white;
+  text-decoration: none;
 }
 
 .text-header .button {

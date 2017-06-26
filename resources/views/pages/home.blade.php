@@ -9,7 +9,7 @@
       <div class="text-header">
         <h2>Getting paid has never been so easy.</h2>
         <p>Yes, a one-fit-all solution for paiements exists.</p>
-        <div class="button">Try it now</div>
+        <a class="button" href="/profiles/create">Try it now</a>
       </div>
     </div>
 
@@ -17,8 +17,8 @@
     <div class="col-xs-12 col-sm-6">
       <div class="img-header">
 
-        <img class="iphone" src="images/iphone_white.png" alt="">
-        <img class="card" src="images/card_header.png" alt="">
+        <img class="iphone" src="/images/iphone_white.png" alt="">
+        <img class="card" src="/images/card_header.png" alt="">
         <video autoplay loop class="video-home" src="video/test_video_lydia3.mov"></video>
       </div>
     </div>
@@ -68,10 +68,11 @@
 
       <div class="col-xs-12 col-sm-4">
         <div class="text-center space">
-          <img class="icon" src="images/icon_transparent.png" alt="">
+          <img class="icon" src="{{URL::asset('/images/icon_transparent.png')}}" alt="">
           <p>0.7% / transaction with mobile or 1.5% + 0.10 € / transaction for online and credit card paiements.</p>
         </div>
       </div>
+
     </div>
   </div>
 </div>
