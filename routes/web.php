@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/', function () {
+  return view('pages.home');
+});
 
 
-Route::get('/', 'ProfilesController@index');
+Route::get('/profiles', 'ProfilesController@index');
+

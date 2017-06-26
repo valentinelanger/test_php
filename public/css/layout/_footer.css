@@ -1,0 +1,36 @@
+footer {
+  background-color: #212121;
+  height: 100px;
+  color: white;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.text-footer-left {
+  text-align: left;
+  padding: 35px 0px;
+  margin: 0px;
+}
+
+.icons-footer {
+  text-align: right;
+  padding: 35px 0px;
+  margin: 0px;
+}
+
+li {
+  font-size: 20px;
+}
+
+li:hover {
+  opacity: 0.8;
+}
+
+.list-inline>li {
+  padding-right: 10px;
+  padding-left: 10px;
+}

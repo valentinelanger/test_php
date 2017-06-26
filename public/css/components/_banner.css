@@ -1,0 +1,14 @@
+.final-banner {
+  color: white;
+  text-align: center;
+  height: calc(100vh - 150px);
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.final-banner p {
+  font-size: 20px;
+}

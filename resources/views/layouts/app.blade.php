@@ -10,7 +10,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
-        <link rel="stylesheet" media="all" href="/public/css/app.css">
+        <link rel="stylesheet" href="/css/app.css">
     </head>
     <body>
 
@@ -20,6 +20,6 @@
 
       @include('layouts.footer')
 
-      <p>we are after the yield part</p>
+
     </body>
 </html>
