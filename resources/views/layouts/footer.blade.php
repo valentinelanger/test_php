@@ -11,6 +11,7 @@
             <ul class="icons-footer list-inline">
               <li>
                 <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
               </li>
               <li>
                 <i class="fa fa-twitter" aria-hidden="true"></i>
