@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('welcome')->with('name', 'World');
+    return view('layouts/app');
 });
