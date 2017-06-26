@@ -15,4 +15,9 @@ class ProfilesController extends Controller
   {
     return view('profiles.create');
   }
+
+  public function store()
+  {
+
+  }
 }
