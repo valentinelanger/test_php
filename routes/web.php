@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('layouts/app');
+  return view('pages.home');
 });
+
+
+Route::get('/profiles', 'ProfilesController@index');
+
+Route::get('/profiles/create', 'ProfilesController@create');
+
