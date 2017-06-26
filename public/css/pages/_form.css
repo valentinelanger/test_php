@@ -1,3 +1,30 @@
 .profile-create {
   height: 100vh;
 }
+
+form {
+  margin: 35px 0px;
+}
+
+.form {
+  padding: 50px 0px;
+  position: relative;
+}
+
+.profile-create .button {
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+}
+
+
+.form-control {
+  margin: 35px 0px;
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 0;
+  box-shadow: none !important;
+  border-bottom: 1px solid rgba(0,0,0,.15) !important;
+  font-size: 16px !important;
+  font-weight: normal;
+}
