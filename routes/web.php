@@ -18,3 +18,5 @@ Route::get('/', function () {
 
 Route::get('/profiles', 'ProfilesController@index');
 
+Route::get('/profiles/create', 'ProfilesController@create');
+

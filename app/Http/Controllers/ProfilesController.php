@@ -13,6 +13,6 @@ class ProfilesController extends Controller
 
   public function create()
   {
-    return view('profiles.new');
+    return view('profiles.create');
   }
 }
