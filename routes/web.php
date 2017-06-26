@@ -20,4 +20,4 @@ Route::get('/profiles', 'ProfilesController@index');
 
 Route::get('/profiles/create', 'ProfilesController@create');
 
-Route::post('/profiles', 'ProfilesController@store')
+Route::post('/profiles', 'ProfilesController@store');

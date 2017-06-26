@@ -1,12 +1,13 @@
 @extends ('layouts.app')
 
 @section ('content')
-
   <div class="container">
     <div class="col-xs-12 col-sm-offset-3 col-sm-6">
     <h1>Register yourself to try our paiement request system</h1>
 
-    <form method="POST" action="/profiles">
+    <form method="POST" action="https://homologation.lydia-app.com/doc/api/request/do">
+      <input type="hidden" name="_token" value="{{ csrf_token() }}">
+      <input type="hidden" name="_token" value="{!! csrf_token() !!}">
       <div class="form-group">
         <label for="firstname">Firstname:</label>
         <input type="text" class="form-control" id="firstname" name="firstname" placeholder="firstname">
