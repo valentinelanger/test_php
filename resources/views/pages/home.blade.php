@@ -9,7 +9,7 @@
       <div class="text-header">
         <h2>Getting paid has never been so easy.</h2>
         <p>Yes, a one-fit-all solution for paiements exists.</p>
-        <div class="button">Try it now</div>
+        <a class="button" href="/profiles/create">Try it now</a>
       </div>
     </div>
 

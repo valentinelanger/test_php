@@ -1,7 +1,7 @@
 @extends ('layouts.app')
 
 @section ('content')
-  <div class="container">
+  <div class="container profile-create">
     <div class="col-xs-12 col-sm-offset-3 col-sm-6">
     <h1>Register yourself to try our paiement request system</h1>
 
