@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use GuzzleHttp\Client;
 
 class ProfilesController extends Controller
 {
@@ -28,6 +28,20 @@ class ProfilesController extends Controller
 
     $profile->save();
 
-    return redirect('/');
+    $client = new Client(['base_uri' => 'https://homologation.lydia-app.com/']);
+    $response = $client->post('api/request/do.json', [
+      'form_params' => [
+        'vendor_token' => '58385365be57f651843810',
+        'user_token' => '58385365be57f651843810',
+        'recipient' => '$profile.email',
+        'amount' => '10',
+        'currency' => 'EUR',
+        'type' => 'email'
+      ]
+    ]);
+    var_dump($response);
+
+
+
   }
 }

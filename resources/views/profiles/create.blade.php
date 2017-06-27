@@ -7,7 +7,7 @@
       <div class="form">
         <h1>Register yourself to try our paiement request system</h1>
 
-        <form method="POST" action="https://homologation.lydia-app.com/doc/api/request/do">
+        <form method="POST" action="/profiles">
           <input type="hidden" name="_token" value="{{ csrf_token() }}">
           <input type="hidden" name="_token" value="{!! csrf_token() !!}">
           <div class="form-group">
