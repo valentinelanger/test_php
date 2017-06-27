@@ -7,16 +7,16 @@
       <div class="form">
         <h1>Register yourself to try our paiement request system</h1>
 
-        <form method="POST" action="https://homologation.lydia-app.com/doc/api/request/do">
+        <form method="POST" action="/profiles">
           <input type="hidden" name="_token" value="{{ csrf_token() }}">
           <input type="hidden" name="_token" value="{!! csrf_token() !!}">
           <div class="form-group">
 
-            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="firstname">
+            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="valentine">
           </div>
           <div class="form-group">
 
-            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="lastname">
+            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="langer">
           </div>
           <div class="form-group">
 
