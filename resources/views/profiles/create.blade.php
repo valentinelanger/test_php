@@ -12,11 +12,11 @@
           <input type="hidden" name="_token" value="{!! csrf_token() !!}">
           <div class="form-group">
 
-            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="firstname">
+            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="valentine">
           </div>
           <div class="form-group">
 
-            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="lastname">
+            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="langer">
           </div>
           <div class="form-group">
 

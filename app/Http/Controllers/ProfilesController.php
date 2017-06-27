@@ -27,8 +27,6 @@ class ProfilesController extends Controller
 
     $profile->save();
 
-    echo $profile->email;
-
     $curl = curl_init();
     curl_setopt_array($curl, array(
       CURLOPT_RETURNTRANSFER => 1,
@@ -43,7 +41,19 @@ class ProfilesController extends Controller
 
     $response = curl_exec($curl);
     curl_close($curl);
-    dd($response);
+    $data = json_decode($response);
+
+    $error = $data->error;
+    $request_id = $data->request_id;
+    $request_uuid = $data->request_uuid;
+    $message = $data->message;
+
+    $payment = new \App\Payment;
+    $payment->error = $error;
+    $payment->request_id = $request_id;
+    $payment->request_uuid = $request_uuid;
+    $payment->message = $message;
+
   }
 
 }
