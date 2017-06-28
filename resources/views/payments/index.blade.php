@@ -15,13 +15,11 @@
         <tr>
           <th><?= $payment->request_id; ?></th>
           <th><?= $payment->status; ?></th>
-          <th><a class="btn-vale" href="https://test_php.dev/payments/state/{$payment}">refresh status</a></th>
+          <th><a class="btn-vale" href="https://test_php.dev/payments/state">refresh status</a></th>
         </tr>
         @endforeach
       </table>
     </div>
   </div>
-
-
 </div>
 @endsection

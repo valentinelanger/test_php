@@ -28,10 +28,7 @@ class PaymentsController extends Controller
     curl_close($curl);
     $result = json_decode($res);
 
-
     $status = $result->state;
-
-
 
     dd(json_decode($res));
   }

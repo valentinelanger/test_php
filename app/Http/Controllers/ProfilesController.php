@@ -56,6 +56,8 @@ class ProfilesController extends Controller
     $payment->status = "";
 
     $payment->save();
+
+    return redirect('payments');
   }
 
 }
