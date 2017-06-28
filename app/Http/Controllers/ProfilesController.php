@@ -35,13 +35,15 @@ class ProfilesController extends Controller
           'recipient' => $profile->email,
           'amount' => '10',
           'currency' => 'EUR',
-          'type' => 'email'
+          'type' => 'email',
+          'confirm_url' => 'https://requestb.in/1ak3nb21'
       )
     ));
 
     $response = curl_exec($curl);
     curl_close($curl);
     $data = json_decode($response);
+
 
     $error = $data->error;
     $request_id = $data->request_id;
@@ -51,9 +53,9 @@ class ProfilesController extends Controller
     $payment = new \App\Payment;
     $payment->error = $error;
     $payment->request_id = $request_id;
-    $payment->request_uuid = $request_uuid;
-    $payment->message = $message;
+    $payment->status = "";
 
+    $payment->save();
   }
 
 }

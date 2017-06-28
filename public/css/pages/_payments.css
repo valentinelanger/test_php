@@ -1,0 +1,28 @@
+.payments {
+  margin: 70px 0px;
+  min-height: 100vh !important;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  text-align: center;
+}
+
+th {
+  text-align: center;
+  padding: 7px 15px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.payments h1 {
+  margin-bottom: 35px;
+  font-size: 30px;
+}
