@@ -17,8 +17,7 @@ class CreatePaymentsTable extends Migration
             $table->increments('id');
             $table->string('error');
             $table->string('request_id');
-            $table->string('request_uuid');
-            $table->string('message');
+            $table->string('status');
             $table->timestamps();
         });
     }

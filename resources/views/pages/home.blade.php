@@ -19,10 +19,9 @@
 
         <img class="iphone" src="/images/iphone_white.png" alt="">
         <img class="card" src="/images/card_header.png" alt="">
-        <video autoplay loop class="video-home" src="video/test_video_lydia3.mov"></video>
+        <video autoplay loop id="muted" class="video-home" src="video/test_video_lydia3.mov"></video>
       </div>
     </div>
-
   </div>
 </div>
 
@@ -34,7 +33,6 @@
         <h1>Banking systems are painful.</h1>
       </div>
     </div>
-
 
     <div class="col-xs-12 col-sm-6">
       <div class="content2">
@@ -80,10 +78,11 @@
 <!-- 4th part with banner -->
 <div class="row">
   <div class="col-xs-12">
-    <div class="final-banner" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 50%), url('images/banner5.jpg');">
+    <div class="final-banner" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%), url('images/test3.jpg');">
     <h2>Mobile First</h2>
     <p>Because your bank should be in your phone.</p>
     </div>
   </div>
 </div>
 @endsection
+

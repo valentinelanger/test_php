@@ -10,6 +10,7 @@
 /* my css - here only pages */
 @import url("pages/_home.css");
 @import url("pages/_form.css");
+@import url("pages/_payments.css");
 @import url("components/_buttons.css");
 @import url("components/_banner.css");
 @import url("layout/_footer.css");
