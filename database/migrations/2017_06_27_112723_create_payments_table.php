@@ -17,6 +17,7 @@ class CreatePaymentsTable extends Migration
             $table->increments('id');
             $table->string('error');
             $table->string('request_id');
+            $table->string('mobile_url');
             $table->string('status');
             $table->timestamps();
         });

@@ -9,13 +9,11 @@
         <tr>
           <th class="title">Request number</th>
           <th class="title">Status</th>
-          <th class="title">Update</th>
         </tr>
         @foreach($payments as $payment)
         <tr>
           <th><?= $payment->request_id; ?></th>
           <th><?= $payment->status; ?></th>
-          <th><a class="btn-vale" href="https://test_php.dev/payments/state">refresh status</a></th>
         </tr>
         @endforeach
       </table>
