@@ -9,7 +9,6 @@ class PaymentsController extends Controller
 {
   public function index()
   {
-
     $payments = Payment::all();
 
     foreach ($payments as $payment) {
