@@ -23,7 +23,6 @@ class ProfilesController extends Controller
     $profile->firstname = request('firstname');
     $profile->lastname = request('lastname');
     $profile->email = request('email');
-    $profile->status = false;
 
     $profile->save();
 
@@ -44,15 +43,16 @@ class ProfilesController extends Controller
     curl_close($curl);
     $data = json_decode($response);
 
-
     $error = $data->error;
     $request_id = $data->request_id;
     $request_uuid = $data->request_uuid;
     $message = $data->message;
+    $mobile_url = $data->mobile_url;
 
     $payment = new \App\Payment;
     $payment->error = $error;
     $payment->request_id = $request_id;
+    $payment->mobile_url = $mobile_url;
     $payment->status = "";
 
     $payment->save();

@@ -24,5 +24,34 @@ th {
 
 .payments h1 {
   margin-bottom: 35px;
+  padding-top: 50px;
   font-size: 30px;
+}
+
+.request-list {
+  position: relative;
+}
+
+.request-list {
+  position: relative;
+}
+
+.position-abs-b {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.position-abs-u {
+  position: absolute;
+  bottom: -80px;
+  right: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.payments p {
+  margin: -5px 10px;
 }
